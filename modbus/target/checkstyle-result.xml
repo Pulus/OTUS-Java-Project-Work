@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.17.0">
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\client\ModbusClient.java">
+<error line="32" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="656" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\client\ModbusClientConfig.java">
+<error line="40" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="62" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\client\ModbusClientTransport.java">
+<error line="6" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\client\ModbusRtuClient.java">
+<error line="25" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="40" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="112" severity="error" message="Длина строки больше 100 (всего 102)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="133" column="1" severity="error" message="Комментарий имеет неправильный уровень отступа 0, ожидается 2, отступ должен быть того же уровня, что и строка 135." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\client\ModbusRtuClientTransport.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\client\ModbusTcpClient.java">
+<error line="27" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="43" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="52" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="74" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="241" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="253" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="264" column="5" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\client\ModbusTcpClientTransport.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\Crc16.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="47" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\ExceptionCode.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\exceptions\ModbusConnectException.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\exceptions\ModbusCrcException.java">
+<error line="6" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="13" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\exceptions\ModbusException.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\exceptions\ModbusExecutionException.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\exceptions\ModbusResponseException.java">
+<error line="7" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="15" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="33" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\exceptions\ModbusTimeoutException.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\exceptions\UnknownUnitIdException.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\FunctionCode.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\internal\util\BufferPool.java">
+<error line="12" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="21" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="31" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="70" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="84" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="98" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\internal\util\Hex.java">
+<error line="6" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\Modbus.java">
+<error line="43" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="71" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\ModbusPduSerializer.java">
+<error line="27" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="48" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="161" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\ModbusRtuRequestFrameParser.java">
+<error line="7" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="37" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="57" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="138" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="146" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\ModbusRtuResponseFrameParser.java">
+<error line="8" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="38" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\pdu\ReadDiscreteInputsRequest.java">
+<error line="22" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\pdu\WriteSingleCoilRequest.java">
+<error line="17" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\pdu\WriteSingleCoilResponse.java">
+<error line="14" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ModbusRtuServer.java">
+<error line="26" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="33" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ModbusRtuServerTransport.java">
+<error line="15" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="17" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ModbusServer.java">
+<error line="3" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ModbusServerConfig.java">
+<error line="33" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="45" severity="warning" message="Отсутствует обобщающего предложения (summary)." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ModbusServerTransport.java">
+<error line="5" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="28" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ModbusServices.java">
+<error line="28" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ModbusTcpServer.java">
+<error line="26" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="33" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ModbusTcpServerTransport.java">
+<error line="15" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ProcessImage.java">
+<error line="23" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="142" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="464" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="470" column="5" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="472" column="5" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="474" column="5" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="486" column="5" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="500" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ReadOnlyModbusServices.java">
+<error line="16" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\server\ReadWriteModbusServices.java">
+<error line="17" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\main\java\com\digitalpetri\modbus\TimeoutScheduler.java">
+<error line="8" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="12" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="18" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="26" column="3" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\test\java\com\digitalpetri\modbus\pdu\ReadDiscreteInputsResponseTest.java">
+<error line="9" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\test\java\com\digitalpetri\modbus\pdu\ReadInputRegistersResponseTest.java">
+<error line="8" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\test\java\com\digitalpetri\modbus\server\ReadOnlyModbusServicesTest.java">
+<error line="19" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\test\java\com\digitalpetri\modbus\server\ReadWriteModbusServicesTest.java">
+<error line="17" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Learning\OTUS_Pro_2024_04\modbus\modbus\src\test\java\com\digitalpetri\modbus\Util.java">
+<error line="7" column="1" severity="warning" message="Пропущен Javadoc комментарий." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+</checkstyle>
