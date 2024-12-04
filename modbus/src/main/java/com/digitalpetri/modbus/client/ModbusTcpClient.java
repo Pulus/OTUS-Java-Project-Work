@@ -139,7 +139,8 @@ public class ModbusTcpClient extends ModbusClient {
     }
 
     private void onFrameReceived(ModbusTcpFrame frame) {
-        ResponsePromise promise = promises.remove(0);
+        MbapHeader header = frame.header();
+        ResponsePromise promise = promises.remove(header.transactionId());
 
         if (promise != null) {
             promise.timeout.cancel();

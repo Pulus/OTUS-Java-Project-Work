@@ -1,5 +1,7 @@
 package ru.otus.modbusTcpManager.converter;
 
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
 import java.util.ArrayList;
 
 public class ModbusDataConverter {
@@ -23,5 +25,18 @@ public class ModbusDataConverter {
             j += 2;
         }
         return b;
+    }
+
+    public static ArrayList<Float> byteToFloat(byte[] b) {
+        ArrayList<Float> arrayList = new ArrayList<>();
+        byte[] tempByte = new byte[4];
+        for (int i = 0; i < b.length; i += 4) {
+            tempByte[0] = b[i];
+            tempByte[1] = b[i + 1];
+            tempByte[2] = b[i + 2];
+            tempByte[3] = b[i + 3];
+            arrayList.add(ByteBuffer.wrap(tempByte).getFloat());
+        }
+        return arrayList;
     }
 }

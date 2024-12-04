@@ -16,7 +16,6 @@ public class ModbusTcpManagerImpl implements ModbusTcpManager {
     private static final Logger logger = LoggerFactory.getLogger(ModbusTcpManagerImpl.class);
 
     private ModbusTcpClient client;
-    private ArrayList<Integer> integerArrayList = new ArrayList<>();
 
     @Override
     public void setup() {
@@ -47,18 +46,20 @@ public class ModbusTcpManagerImpl implements ModbusTcpManager {
         }
     }
 
-    public void readHolding(int unitId, int address, int quantity) {
+    public ArrayList<Integer> readHolding(int unitId, int address, int quantity) {
         // Чение
         try {
             ReadHoldingRegistersResponse response =
                     client.readHoldingRegisters(unitId, new ReadHoldingRegistersRequest(address, quantity));
-            integerArrayList = ModbusDataConverter.byteToInteger(response.registers());
+            var integerArrayList = ModbusDataConverter.byteToInteger(response.registers());
             logger.info("registers: {}", integerArrayList);
 
             logger.info("read - ok");
+            return integerArrayList;
         } catch (Exception e) {
             logger.warn(e.toString());
         }
+        return null;
     }
 
     public void writeHolding(int unitId, int address, int quantity, ArrayList wrireArrayList) {
@@ -72,6 +73,22 @@ public class ModbusTcpManagerImpl implements ModbusTcpManager {
         } catch (Exception e) {
             logger.warn(e.toString());
         }
+    }
+
+    public ArrayList<Float> readFloat(int unitId, int address, int quantity) {
+        // Чение
+        try {
+            ReadHoldingRegistersResponse response =
+                    client.readHoldingRegisters(unitId, new ReadHoldingRegistersRequest(address, quantity));
+            var FloatArrayList = ModbusDataConverter.byteToFloat(response.registers());
+            logger.info("registers: {}", FloatArrayList);
+
+            logger.info("read - ok");
+            return FloatArrayList;
+        } catch (Exception e) {
+            logger.warn(e.toString());
+        }
+        return null;
     }
 
     private Param getParam() {
